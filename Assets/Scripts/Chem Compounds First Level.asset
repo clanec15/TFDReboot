@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7088178171617628266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0d5578788bb14ba70b8a002ce205b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unstackEvent: 3
+  unstackKeyCode: 304
+--- !u!114 &-2964072742206244745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Soidum Hypochloride
+  m_EditorClassIdentifier: 
+  m_Id: 24cc2426-6d1b-47cc-98ac-fba052417b22
+  m_ItemName: Soidum Hypochloride
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A pale-greenish-yellow liquid, pretty corrosive to living matter,
+    but not for you, base for multiple compounds.
+  m_Category: {fileID: 3553145978094282150}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 15
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 1
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Diluting
+  m_CraftingModifier:
+    modifiers: []
+  ingredients:
+  - item: {fileID: -7067458712348313610, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 1
+  - item: {fileID: -2505191896266797941, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 2
+  properties: []
+--- !u!114 &-2295470042586821069
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75ad62c39bcb4544a7ae046cdfd8b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contextMenuName: ContextMenu
+  tooltipName: Tooltip
+  sellPriceTooltipName: Sell Price Tooltip
+  stackName: Stack
+  notificationName: Notification
+--- !u!114 &-1719712335231977011
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Hydrochloric acid
+  m_EditorClassIdentifier: 
+  m_Id: 3b893bd6-ff63-44b5-a43d-1e9e55d13072
+  m_ItemName: Hydrochloric acid
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A colorless solution, One of the most common acids, but one of the
+    strongest
+  m_Category: {fileID: 3553145978094282150}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 15
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 1
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Diluting
+  m_CraftingModifier:
+    modifiers: []
+  ingredients:
+  - item: {fileID: -1657293789274506154, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 3
+  - item: {fileID: -7067458712348313610, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 1
+  properties: []
+--- !u!114 &-282181684256044446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: 'Hydrogen Peroxide '
+  m_EditorClassIdentifier: 
+  m_Id: 25936330-f014-4859-8c03-aca2a6a7a460
+  m_ItemName: 'Hydrogen Peroxide '
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A Pale Blue liquid used to Desinfect surfaces in the old world,
+    altough, here is the precursor of a lot of compounds...
+  m_Category: {fileID: 3553145978094282150}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 15
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 1
+  m_CraftingDuration: 5
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: CreatingCompound
+  m_CraftingModifier:
+    modifiers: []
+  ingredients:
+  - item: {fileID: -7567878003447827028, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 2
+  - item: {fileID: -7067458712348313610, guid: 9b52502c082ebad43a71276bf62712fd, type: 2}
+    amount: 1
+  properties: []
+--- !u!114 &-203466900306696812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefcd19cdc9839d449772c4dce1503f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoSave: 1
+  savingKey: Player
+  savingRate: 60
+  provider: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138669a60fd8dc345859b20ddc2ad589, type: 3}
+  m_Name: Chem Compounds First Level
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: -282181684256044446}
+  - {fileID: -2964072742206244745}
+  - {fileID: -1719712335231977011}
+  currencies: []
+  raritys: []
+  categories:
+  - {fileID: 3553145978094282150}
+  equipments: []
+  itemGroups: []
+  settings:
+  - {fileID: 2315244385239784603}
+  - {fileID: -7088178171617628266}
+  - {fileID: 6685902550801553399}
+  - {fileID: -203466900306696812}
+  - {fileID: -2295470042586821069}
+--- !u!114 &2315244385239784603
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a031a30894f085742887ec331ba7d697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  maxDropDistance: 3
+  queriesHitTriggers: 0
+  debugMessages: 1
+  showAllComponents: 0
+--- !u!114 &3553145978094282150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4abab319188bac4a8515c585b13ba9d, type: 3}
+  m_Name: None
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  name: None
+  m_EditorColor: {r: 0, g: 0, b: 0, a: 0}
+  m_Cooldown: 1
+--- !u!114 &6685902550801553399
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3872ca8d5c2640d40b898af499332431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerFull:
+    title: 
+    text: '{0} is full!'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  failedRestriction:
+    title: 
+    text: '{0} can''t be added to {1}.'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingItem:
+    title: 
+    text: This action requires {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingCategoryItem:
+    title: 
+    text: This action requires {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  inCooldown:
+    title: 
+    text: '{0} is in cooldown for {1} seconds!'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  selectItem:
+    title: 
+    text: Select an item you would like to craft.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  alreadyCrafting:
+    title: 
+    text: You are already crafting.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  craftedItem:
+    title: 
+    text: Successfully crafted {0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingIngredient:
+    title: 
+    text: You don't have all ingredients to craft this item!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  failedToCraft:
+    title: 
+    text: You failed to craft {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingSkillToCraft:
+    title: 
+    text: You don't have the skill to craft this item!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  requiresHigherSkill:
+    title: 
+    text: Your {0} is to low to craft {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  soldItem:
+    title: 
+    text: Sold {0} for {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  boughtItem:
+    title: 
+    text: Bought {0} for {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  noCurrencyToBuy:
+    title: 
+    text: You don't have enough coins.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  cantSellItem:
+    title: 
+    text: You can't sell this {0}!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  toFarAway:
+    title: 
+    text: This is to far away!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  inUse:
+    title: 
+    text: My life is already fairly busy.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  empty:
+    title: 
+    text: There is nothing to be found here.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  skillGain:
+    title: 
+    text: Your {0} increased by {1}% to {2}%.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1

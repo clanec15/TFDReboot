@@ -1,0 +1,816 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9097619707255832229
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefcd19cdc9839d449772c4dce1503f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoSave: 1
+  savingKey: Player
+  savingRate: 60
+  provider: 0
+--- !u!114 &-7567878003447827028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Detergent
+  m_EditorClassIdentifier: 
+  m_Id: 67e08ab5-eb10-4984-b513-ed9c9c17dee7
+  m_ItemName: Detergent
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A helpful Chemical of the old world, made out of mostly sodium percarbonate
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &-7562608733744968801
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd508013dff080478b54adc05db11e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  m_UseAsNamePrefix: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  chance: 100
+  multiplier: 1
+  m_PriceMultiplier: 1
+--- !u!114 &-7067458712348313610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  m_Id: 2cc4ed13-bd8c-4b39-a9cb-dbfd4d54c8a0
+  m_ItemName: Water
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A extremly useful liquid
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &-7005658870770461799
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a031a30894f085742887ec331ba7d697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  maxDropDistance: 3
+  queriesHitTriggers: 0
+  debugMessages: 1
+  showAllComponents: 0
+--- !u!114 &-5355904758183306632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Heavy Duty Battery (Leggera)
+  m_EditorClassIdentifier: 
+  m_Id: 1cad54d1-d070-46e9-b811-8f890c8cc358
+  m_ItemName: Heavy Duty Battery (Leggera)
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A Heavy-Duty, non-recharchable Battery made out of Zinc Chloride,
+    Manganese Dioxide and a Carbon Rod
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &-4264584216095206975
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Old Ring
+  m_EditorClassIdentifier: 
+  m_Id: 4388545e-f511-413d-88ae-cdf786352d06
+  m_ItemName: Old Ring
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: 'This ring seems to have an emerald on it, although, it seems to
+    brittle to be an emerald...
+
+'
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 1
+  m_MaxStack: 1
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+  m_UseCategoryCooldown: 1
+  m_Cooldown: 1
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region: []
+  references:
+    version: 1
+--- !u!114 &-2505191896266797941
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Bleach
+  m_EditorClassIdentifier: 
+  m_Id: 759c8f98-cde0-4398-bab1-5706b4cd6b7c
+  m_ItemName: Bleach
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: Used to clean clothes on the old world, altough, Clothes are not
+    needed anymore here
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 0
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &-1657293789274506154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Drain Cleaner
+  m_EditorClassIdentifier: 
+  m_Id: 24f44222-dd62-4209-afb6-17d0343a9eef
+  m_ItemName: Drain Cleaner
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A corrosive compund used to clean pipes
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+  m_UseCategoryCooldown: 1
+  m_Cooldown: 1
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region: []
+  references:
+    version: 1
+--- !u!114 &-78732693316197164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Alkaline Battery (PowerPlus)
+  m_EditorClassIdentifier: 
+  m_Id: 8e3b9229-a107-43ff-9006-625e04100fc5
+  m_ItemName: Alkaline Battery (PowerPlus)
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: "A non-rechargeable, High Capacity Alkaline Battery found on Every
+    household\tMade out of Zinc and Manganese Dioxide"
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138669a60fd8dc345859b20ddc2ad589, type: 3}
+  m_Name: Chem Precursors List
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 1175415051626832423}
+  - {fileID: -7567878003447827028}
+  - {fileID: -2505191896266797941}
+  - {fileID: -1657293789274506154}
+  - {fileID: 6105222214202161311}
+  - {fileID: -7067458712348313610}
+  - {fileID: -4264584216095206975}
+  - {fileID: 2967531249142875087}
+  - {fileID: -5355904758183306632}
+  - {fileID: 2503246137028313047}
+  - {fileID: -78732693316197164}
+  currencies: []
+  raritys:
+  - {fileID: -7562608733744968801}
+  categories:
+  - {fileID: 144528526032096296}
+  equipments: []
+  itemGroups: []
+  settings:
+  - {fileID: -7005658870770461799}
+  - {fileID: 6242827873236774399}
+  - {fileID: 2344523504284778474}
+  - {fileID: -9097619707255832229}
+  - {fileID: 2120130893513784541}
+--- !u!114 &144528526032096296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4abab319188bac4a8515c585b13ba9d, type: 3}
+  m_Name: None
+  m_EditorClassIdentifier: 
+  m_Parent: {fileID: 0}
+  name: None
+  m_EditorColor: {r: 0, g: 0, b: 0, a: 0}
+  m_Cooldown: 1
+--- !u!114 &1175415051626832423
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Borax
+  m_EditorClassIdentifier: 
+  m_Id: 290d7f36-6151-4a61-af0d-0f0b95991ab0
+  m_ItemName: Borax
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: Also Known as Sodium Tetraborate Decahydrate was used in the old
+    world as a Additive to Ceramic Making, altough, Here it can be used to create
+    Weapons...
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &2120130893513784541
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75ad62c39bcb4544a7ae046cdfd8b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contextMenuName: ContextMenu
+  tooltipName: Tooltip
+  sellPriceTooltipName: Sell Price Tooltip
+  stackName: Stack
+  notificationName: Notification
+--- !u!114 &2344523504284778474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3872ca8d5c2640d40b898af499332431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  containerFull:
+    title: 
+    text: '{0} is full!'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  failedRestriction:
+    title: 
+    text: '{0} can''t be added to {1}.'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingItem:
+    title: 
+    text: This action requires {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingCategoryItem:
+    title: 
+    text: This action requires {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  inCooldown:
+    title: 
+    text: '{0} is in cooldown for {1} seconds!'
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  selectItem:
+    title: 
+    text: Select an item you would like to craft.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  alreadyCrafting:
+    title: 
+    text: You are already crafting.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  craftedItem:
+    title: 
+    text: Successfully crafted {0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingIngredient:
+    title: 
+    text: You don't have all ingredients to craft this item!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  failedToCraft:
+    title: 
+    text: You failed to craft {0}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  missingSkillToCraft:
+    title: 
+    text: You don't have the skill to craft this item!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  requiresHigherSkill:
+    title: 
+    text: Your {0} is to low to craft {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  soldItem:
+    title: 
+    text: Sold {0} for {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  boughtItem:
+    title: 
+    text: Bought {0} for {1}.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  noCurrencyToBuy:
+    title: 
+    text: You don't have enough coins.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  cantSellItem:
+    title: 
+    text: You can't sell this {0}!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  toFarAway:
+    title: 
+    text: This is to far away!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  inUse:
+    title: 
+    text: My life is already fairly busy.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  empty:
+    title: 
+    text: There is nothing to be found here.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  skillGain:
+    title: 
+    text: Your {0} increased by {1}% to {2}%.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+--- !u!114 &2503246137028313047
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Rechargeable Heavy Duty Battery (Meksiko)
+  m_EditorClassIdentifier: 
+  m_Id: b8b386cf-89a2-4250-b860-7eadaafe672b
+  m_ItemName: Rechargeable Heavy Duty Battery (Meksiko)
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A very rare battery only found on Military level equipment, Combines
+    the Characteristics of the Seredina and Leggera
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 10
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+  m_UseCategoryCooldown: 1
+  m_Cooldown: 1
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region: []
+  references:
+    version: 1
+--- !u!114 &2967531249142875087
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: General Purpose Battery (Seredina)
+  m_EditorClassIdentifier: 
+  m_Id: 5b25d827-74f1-4142-af21-3ed3650ede8f
+  m_ItemName: General Purpose Battery (Seredina)
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: A general purpose battery made out of Ammonium Chloride, Manganese
+    Dioxide and a Carbon Rod
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+--- !u!114 &6105222214202161311
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
+  m_Name: Fluorite
+  m_EditorClassIdentifier: 
+  m_Id: 517adb2a-28b5-4c2a-869c-f2c772650ea5
+  m_ItemName: Fluorite
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: The Mineral Form of Calcium Fluorite, that was sold as a esmerald
+    Ring Jewel
+  m_Category: {fileID: 144528526032096296}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 50
+  m_MaxStack: 5
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 1
+  m_CraftingDuration: 1
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: RemovingFakeJewel
+  m_CraftingModifier:
+    modifiers: []
+  ingredients:
+  - item: {fileID: -4264584216095206975}
+    amount: 1
+  properties: []
+--- !u!114 &6242827873236774399
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d0d5578788bb14ba70b8a002ce205b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unstackEvent: 3
+  unstackKeyCode: 304
